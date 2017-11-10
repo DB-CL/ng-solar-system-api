@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API for ng-solar-system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niflou/ng-solar-system-api.git"
+  },
+  "author": "Niflou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Niflou/ng-solar-system-api/issues"
+  },
+  "homepage": "https://github.com/Niflou/ng-solar-system-api#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "pg": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
